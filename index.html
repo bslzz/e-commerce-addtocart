@@ -176,11 +176,11 @@
                 <h2 class="product_name mb-5">The total Amount</h2>
                 <div class="price_indiv d-flex justify-content-between">
                   <p>Product Amount</p>
-                  <p>💲<span>0.00</span></p>
+                  <p>💲<span id="product_amt">0.00</span></p>
                 </div>
                 <div class="price_indiv d-flex justify-content-between">
                   <p>Shipping Charge</p>
-                  <p>💲50.00</p>
+                  <p>💲<span id="shipping_amt">50.00</span></p>
                 </div>
                 <hr />
                 <div class="total_amt d-flex justify-content-between">
@@ -214,12 +214,12 @@
                           placeholder="Enter the discount code"
                         />
                         <small id="error_trw" class="text-dark mt-3"
-                          >code is</small
+                          >code is bishal</small
                         >
                       </div>
                       <button
                         class="btn btn-primary btn-sm mt-2"
-                        onclick="discount_code()"
+                        onclick="discountCode()"
                       >
                         Apply
                       </button>
